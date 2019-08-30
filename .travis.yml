@@ -3,6 +3,6 @@ python:
 - "3.7"
 #command to install dependecies
 install: "pip install --user coverage"
-#command to run test
+script:
 - coverage run test.py
 - coverage report
