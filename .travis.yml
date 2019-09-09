@@ -5,5 +5,5 @@ python:
 install: "pip install coverage"
 install: "pip install mock"
 script:
-- coverage run test.py
+- coverage run testing/testing_varios/test.py
 - coverage report
