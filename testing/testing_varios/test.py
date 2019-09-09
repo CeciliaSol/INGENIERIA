@@ -2,7 +2,7 @@ import unittest
 import sut
 from unittest.mock import MagicMock
 from unittest.mock import patch
-#import math
+import math
 
 class TestSut(unittest.TestCase):
 
